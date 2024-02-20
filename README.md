@@ -4,13 +4,15 @@ Tento skript slouží k scrapování výsledků voleb z roku 2017 z webové str�
 
 ## Jak používat skript
 
-1. **Nainstalujte knihovny**: Nejprve si nainstalujte všechny potřebné knihovny ze souboru `requirements.txt` pomocí následujícího příkazu:
+1. **Vytvořte si virtuální prostředí**: Nejprve doporučuji vytvořit si nové virtuální porstředí, ve kterém butete pracovat.
+
+2. **Nainstalujte knihovny**: Poté si nainstalujte všechny potřebné knihovny ze souboru `requirements.txt` pomocí následujícího příkazu:
 
     ```bash
     python -m pip install -r requirements.txt
     ```
 
-2. **Spusťte skript**: Skript lze spustit z příkazového řádku pomocí následujícího příkazu:
+3. **Spusťte skript**: Spuštění souboru election_scraper.py v příkazovém řádku vyžaduje 2 povinné argumenty:
 
     ```bash
     python election_scraper.py <url> <output_file>
