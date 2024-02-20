@@ -126,7 +126,7 @@ def prochazeni_stranek_obci(informace: list[dict]) -> list[dict]:
             "Location": obec_nazev,
             "Registered": volici_v_seznamu,
             "Envelopes": vydane_obalky,
-            "Valis": platne_hlasy,
+            "Valid": platne_hlasy,
             **{strana: hlasy for strana, hlasy in zip(jmena_stran, hlasy_stran)}
         })
         index += 1
