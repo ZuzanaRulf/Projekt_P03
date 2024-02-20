@@ -34,8 +34,6 @@ Výsledný csv soubor obsahuje data oddělená čárkou a je kódován pomocí u
 
 Pro ilustraci, zde je příklad spuštění skriptu pro [územní celek Prostějov](https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103):
 
-### Příklad pro územní celek Prostějov:
-
 1. argument: [https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103](https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103)
 2. argument: vysledky_prostejov.csv
 
