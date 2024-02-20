@@ -31,7 +31,7 @@ Výsledný csv soubor obsahuje data oddělená čárkou a je kódován pomocí u
 
 ## Ukázka projektu
 
-Pro ilustraci, zde je příklad spuštění skriptu pro [volby.cz](https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103).
+Pro ilustraci, zde je příklad spuštění skriptu pro [územní celek Prostějov](https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103):
 
 ```bash
 python election_scraper.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103" "vysledky_prostejov.csv"
